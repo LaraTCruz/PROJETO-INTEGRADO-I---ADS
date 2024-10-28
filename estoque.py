@@ -72,5 +72,5 @@ def main():
         else:
             print("Não encontramos essa opção. Por favor, tente novamente. *o* ")
 
-if __name__=="__maein__":
+if __name__=="__main__":
     main()                     
