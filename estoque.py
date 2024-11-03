@@ -57,7 +57,7 @@ def main():
             quantidade=int(input("Informe a quantidade em estoque: ")) 
             valor=float(input("Informe o valor: "))      
             rastrear=input("Informe a localização: ")
-            estoque.cadastrar_produto(nome, categoria, quantidade, valor, rastrear)
+            estoque.cadastrar_produtos(nome, categoria, quantidade, valor, rastrear)
         elif escolha=="2":
             nome=input("Informe o nome: ")
             quantidade=input("Informe a quantidade adicional: ")
